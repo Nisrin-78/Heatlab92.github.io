@@ -1,0 +1,43 @@
+---
+title: "Pauvreté et îlots de chaleur à Gennevilliers"
+author: "Heatlab92"
+date: "2026"
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+    self_contained: true
+---
+<nav>
+[Accueil](index.html) | 
+[Pauvreté](pauvrete.html) | 
+[Îlots de chaleur](chaleur.html) | 
+[Analyse](analyse.html) | 
+[Conclusion](conclusion.html)
+</nav>
+
+# Introduction
+
+Gennevilliers est une commune du département des Hauts-de-Seine (92), située au nord-ouest de Paris. Avec une population d'environ 46 000 habitants, elle se caractérise par de fortes inégalités sociales et une forte densité urbaine.
+
+## Problématique
+
+**Dans quelle mesure les quartiers les plus défavorisés de Gennevilliers sont-ils plus exposés aux îlots de chaleur urbains ?**
+
+Les îlots de chaleur urbains (ICU) désignent des zones où la température est significativement plus élevée que dans les zones environnantes, notamment en raison de la minéralisation des surfaces (béton, asphalte) et du manque de végétation.
+
+## Hypothèse
+
+Les quartiers défavorisés, souvent caractérisés par une forte densité de logements sociaux, moins d'espaces verts et plus de surfaces imperméables, seraient davantage exposés aux îlots de chaleur.
+
+## Données utilisées
+
+- **Pauvreté** : Carreaux de 200m, Filosofi, INSEE (2019)
+- **Îlots de chaleur** : Occupation du sol, IGN via happign
+
+## Organisation du site
+
+- Page 1 : Cartographie de la pauvreté
+- Page 2 : Cartographie des îlots de chaleur
+- Page 3 : Analyse croisée
